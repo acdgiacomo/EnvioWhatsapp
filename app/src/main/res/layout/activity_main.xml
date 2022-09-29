@@ -23,7 +23,9 @@
             android:id="@+id/textInputEditNumero"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="Número" />
+            android:digits="1234567890"
+            android:hint="Número"
+            android:maxLength="13" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
